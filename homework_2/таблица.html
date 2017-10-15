@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+       <meta charset="utf-8">
+       		<style type="text/css">
+			table{border-collapse: collapse; text-align: center; }
+			td{border:1px black solid; padding:5px;}
+			caption{font-size: 20px; font-weight: bold;}
+			</style>
+        <title>Таблица совместимости знаков зодиака</title>
+    </head>
+    <body>
+    	<table>
+    		<caption>Таблица совместимости знаков зодиака</caption>
+    		<thead>
+    		<tr>
+        		<td>Женщины↓ Мужчины→</td>
+       		 	<td>Овен</td>
+        		<td>Телец</td>
+        		<td>Близнецы</td>
+        		<td>Рак</td>
+        		<td>Лев</td>
+        		<td>Дева</td>
+        		<td>Весы</td>
+        		<td>Скорпион</td>
+        		<td>Стрелец</td>
+            </tr>
+        	</thead>
+        	<tfoot></tfoot>
+            
+        	<tbody>
+			<tr>
+        		<td>Овен</td>
+        		<td>+-</td>
+        		<td>-</td>
+        		<td>+</td>
+        		<td>-</td>
+        		<td>++</td>
+        		<td>--</td>
+        		<td>+-</td>
+        		<td>-</td>
+        		<td rowspan="9"> Ни с кем не совместимы</td>
+            </tr>
+			<tr>
+        		<td>Телец</td>
+        		<td>-</td>
+        		<td>+-</td>
+        		<td>--</td>
+        		<td>+</td>
+        		<td>--</td>
+        		<td>++</td>
+        		<td>-</td>
+        		<td>+-</td>
+        		
+            </tr>
+			<tr>
+        		<td>Близнецы</td>
+        		<td>+</td>
+        		<td>--</td>
+        		<td>+-</td>
+        		<td>-</td>
+        		<td>+</td>
+        		<td>--</td>
+        		<td>++</td>
+        		<td>-</td>
+        		
+            </tr>
+			<tr>
+        		<td>Рак</td>
+        		<td>--</td>
+        		<td>+</td>
+        		<td>-</td>
+        		<td>+-</td>
+        		<td>--</td>
+        		<td>+</td>
+        		<td>+</td>
+        		<td>++</td>
+        		
+            </tr>
+			<tr>
+        		<td>Лев</td>
+        		<td>++</td>
+        		<td>--</td>
+        		<td>+</td>
+        		<td>-</td>
+        		<td>+-</td>
+        		<td>+</td>
+        		<td>+</td>
+        		<td>++</td>
+        		
+            </tr>
+			<tr>
+        		<td>Дева</td>
+        		<td>--</td>
+        		<td>++</td>
+        		<td>--</td>
+        		<td>+</td>
+        		<td>-</td>
+        		<td>+-</td>
+        		<td>-</td>
+        		<td>+</td>
+        		
+            </tr>
+			<tr>
+        		<td>Весы</td>
+       		 	<td>+-</td>
+        		<td>-</td>
+        		<td>++</td>
+        		<td>--</td>
+        		<td>+</td>
+        		<td>--</td>
+        		<td>+-</td>
+        		<td>-</td>
+        		
+            </tr>
+			<tr>
+        		<td>Скорпион</td>
+        		<td>-</td>
+        		<td>+-</td>
+       		 	<td>-</td>
+        		<td>++</td>
+        		<td>-</td>
+        		<td>+</td>
+        		<td>-</td>
+        		<td>+-</td>
+        		
+        	</tr>
+        	</tbody>
+        	<tr>
+        		<td>Стрелец</td>
+        		<td colspan="9"> Ни с кем не совместимы </td>
+            </tr>
+        	</tfoot>
+		</table>
+		<p>
+    <form method="GET" action="/dz.php">  
+    	<label><input type="text" name="Введи ваше имя"> Введите ваше имя<br> </label>
+    	<label><input type="password" name="Введите пароль"> Введите пароль <br></label>
+    	<label><input type="email" name="Введите ваш e-mail"> Введите E-mail<br></label>
+    	<label><input type="tel" name="Введите номер телефона"> Введите номер телефона <br></label>
+    	<label><input type="number" name="Сколько часов в неделю вы занимаетесь спортом?" min="0" max="10" step="0.5"> Сколько часов в неделю вы занимаетесь спортом?<br></label>
+    	<input type="range" name="На сколько вы удовлетворены своей физической формой?" min="0" max="50">На сколько вы удовлетворены своей физической формой?<br>
+    	<label><input type="url" name="Введите URL">Введите URL<br></label>
+    	<input type="button" name="Просто кнопка"> Просто кнопка<br>
+    	<label><input type="file" name="Загрузите свое фото"> Загрузите свое фото<br></label>
+    	</p>
+		<label><input type="search" name="Поиск">Поиск<br></label>
+    	<p><b>Где бы вы предпочли тренироваться?</b></p>
+  <label><input type="radio" name="ответ" value="1">Тренажерный зал<br></label>
+  <label><input type="radio" name="ответ value="2">Бассейн<br></label>
+  <label><input type="radio" name="ответ" value="3">Зал единоборств<br></label>
+		<label><input type="checkbox" name="Вы-профессиональный спортсмен" value="11"> Вы являяетесь профессиональным спортсменом<br></label>
+		<input type="submit" name="Отправить"><br>
+    	<input type="reset" name="Сбросить"><br>
+ </form>
+</body>
+</html>
