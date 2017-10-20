@@ -1,0 +1,64 @@
+ body { 
+ 	font-family: Roboto (cyrillic + latin);
+ 	color:#222222
+ } 
+ html{
+ 	font-size: 16px
+
+ }
+ h1{
+ 	font-size:2rem;
+ 	font-variant: normal;
+ 	font-weight: 400;
+ 	text-align: center;
+ 	border-bottom: 2px solid #aaaaaa 
+ }
+ h2{
+ 	font-size:1.5rem;
+ 	font-weight: 500;
+ 	border-bottom: 1px solid #aaaaaa
+ }
+ h3{
+ 	font-size: 1.3rem;
+ 	font-weight: 600
+ }
+ h4{
+ 	font-size: 1.125rem;
+ 	font-weight:600
+ }
+ .content,figure{
+ 	padding: 15px;
+ 	margin-right:40px;
+ 	margin-left:40px;
+ 	margin-top: 15px;
+ 	margin-bottom: 15px;
+ 	width: 250px;
+ 	background-color: #eeeeee;
+ 	border:1px solid #dddddd;
+ 	border-radius: 3px;
+ }
+ figcaption#pic1{
+ 	font-weight: 500
+ }
+
+ figcaption{
+ 	font-size:0.81rem;
+ 	font-style: italic
+ }
+ img{
+ 	width: 100%;
+ 	border-radius: 3px
+ }
+ p{
+ 	text-align: justify;
+ 	text-indent: 40px
+ }
+ a{
+ 	color: #0088ff;
+ 	text-decoration:none;
+ }
+ q{
+ 	font-style: italic;
+ 	quotes: "«" "»";
+ 	color: #888888
+ }
